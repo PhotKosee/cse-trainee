@@ -1,18 +1,20 @@
 .card-wrapper {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .card-wrapper .card {
-    border-radius: var(--border-radius);
+    border-radius: 0.75rem;
     max-width: 250px;
-    background-color: var(--container-color);
+    background-color: #fbe4b2;
     padding: 3px;
+    overflow: hidden;
 }
 
 .card-wrapper .card-image {
-    height: 150px;
+    height: 100px;
     object-position: center;
 }
 
@@ -28,20 +30,19 @@
     align-items: center;
 }
 
+.image-content {
+    overflow: hidden;
+}
+
 .image-content .card-img {
     height: 100%;
     width: 100%;
-    border-radius: var(--border-radius);
-    overflow: hidden;
+    border-radius: 0.75rem;
 }
 
 .card-img:hover {
     transform: scale(1.1);
     transition: ease-in-out;
-}
-
-.card-content {
-    margin-top: 0.5rem;
 }
 
 .name {
@@ -52,14 +53,13 @@
     text-align: center;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
+    font-family: 'Patua One', cursive;
+    color: #614326;
 }
 
 .subtitle {
-    font-size: var(--small-font-size);
-    font-weight: var(--font-medium);
     position: relative;
     margin-top: 0.3rem;
-    margin-bottom: 1.2rem;
     color: rgb(112, 110, 110);
     display: flex;
     align-items: center;

@@ -12,7 +12,7 @@
 .inner {
     position: relative;
     padding: 27px;
-    background-color: #E5D0A3;
+    background-color: #fbe4b2;
     border-radius: 0.70rem;
     font-family: 'Patua One', cursive;
     color: #614326;
@@ -24,7 +24,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    background-color: #E5D0A3;
+    background-color: #fbe4b2;
 }
 
 .close-icon {

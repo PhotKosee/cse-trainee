@@ -16,8 +16,20 @@ function NavBar(props) {
             </div>
             <img src="https://user-images.githubusercontent.com/114990364/259049774-4323e11a-1413-4ff7-9d2a-4feba95a8cbc.png" alt="Logo" className="logo"/>
             <nav ref={navRef}>
-                <button className="drop-btn">Site Info<BiChevronDown className="icon" /></button>
-                <button className="drop-btn"><BiUser className="icon" /> About Me?<BiChevronDown className="icon" /></button>
+                <div className="dropdown-info">
+                    <button className="drop-btn">Site Info<BiChevronDown className="icon" /></button>
+                    <div className="dropdown-content-info">
+                        <p>Theme: Hobbies</p>
+                        <a href="https://github.com/PhotKosee/cse-trainee" target="{_blank}">Source Code</a>
+                    </div>
+                </div>
+                <div className="dropdown-me">
+                    <button className="drop-btn"><BiUser className="icon" /> About Me?<BiChevronDown className="icon" /></button>
+                    <div className="dropdown-content-me">
+                        <p>Phot Koseekrainiramon</p>
+                        <a href="https://github.com/PhotKosee" target="{_blank}">GitHub Account</a>
+                    </div>
+                </div>
                 <button className="play-btn" onClick={() => props.setTrigger(true)}>
                     Play Now
                 </button>

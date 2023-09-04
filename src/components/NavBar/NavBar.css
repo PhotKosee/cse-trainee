@@ -5,7 +5,7 @@
     gap: 1rem;
     height: 70px;
     background-color: #45322b;
-    opacity: 0.97;
+    opacity: 0.99;
     color: white;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -69,6 +69,46 @@
     background-color: #493A33;
     border: none;
     outline: none;
+}
+
+.dropdown-info, .dropdown-me {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content-info, .dropdown-content-me {
+    display: none;
+    position: absolute;
+    background-color: #352924;
+    z-index: 1;
+    border-radius: 0.75rem;
+}
+
+.dropdown-content-info a,
+.dropdown-content-me a,
+.dropdown-content-info p,
+.dropdown-content-me p {
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
+.dropdown-content-info a:hover,
+.dropdown-content-me a:hover {
+    background-color: #493A33;
+    color: white;
+}
+
+.dropdown-info:hover .dropdown-content-info {
+    display: block;
+}
+
+.dropdown-me:hover .dropdown-content-me {
+    display: block;
 }
 
 @media only screen and (max-width: 750px) {
