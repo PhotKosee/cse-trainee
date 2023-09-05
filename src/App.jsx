@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./App.css"
-import Hobbies from "./components/Hobbies/Hobbies"
+import Hobby from "./components/Hobbies/Hobby"
 import NavBar from "./components/NavBar/NavBar"
 import Popup from "./components/Popup/Popup"
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="bg">
       <NavBar setTrigger={setPopup} />
-      <Hobbies />
+      <Hobby />
       <Popup trigger={usePopup} setTrigger={setPopup}>
         <h3>All tables full!</h3>
         <p>There should be an empty seat soon</p>
