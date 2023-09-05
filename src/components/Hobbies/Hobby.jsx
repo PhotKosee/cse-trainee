@@ -6,7 +6,7 @@ import { Hobbies } from "./storage";
 
 function Hobby() {
     return (
-        <div className="hobby-section">
+        <div>
             <h1 className="title">Hobbies</h1>
             <div className="hobby-wrapper">
                 <Swiper

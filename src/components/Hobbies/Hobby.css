@@ -1,7 +1,6 @@
 .title {
     font-family: 'Patua One', cursive;
     color: white;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +9,13 @@
 }
 
 .hobby-wrapper {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.swiper {
+    display: inline;
 }
 
 @media screen and (min-width: 0px) {
