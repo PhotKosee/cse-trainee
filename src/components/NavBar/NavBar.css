@@ -13,6 +13,7 @@
     margin-right: 1rem;
     border-radius: 0.7rem;
     padding-right: 1rem;
+    margin-top: 1rem;
 }
 
 .brand {
@@ -119,6 +120,7 @@
         margin-left: 0rem;
         margin-right: 0rem;
         border-radius: 0rem;
+        margin-top: 0rem;
     }
 
     .brand {
